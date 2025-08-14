@@ -1,6 +1,5 @@
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -414,37 +413,3 @@ font-family: serif;
         font-size: 14px;
         border-top: 1px solid #333;
     }
-
-    
-/* Tablets */
-@media (max-width: 768px) {
-    .product-card {
-        flex: 1 1 calc(50% - 20px);
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background: #333;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        width: 200px;
-        padding: 10px;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-    .product-card {
-        flex: 1 1 100%;
-    }
-}
